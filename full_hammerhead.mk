@@ -1,4 +1,5 @@
 #
+# Copyright (c) 2014-2016 NXP Software. All rights are reserved.
 # Copyright 2013 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -28,7 +29,7 @@ PRODUCT_DEVICE := hammerhead
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := AOSP on HammerHead
 PRODUCT_MANUFACTURER := LGE
-PRODUCT_RESTRICT_VENDOR_FILES := true
+PRODUCT_RESTRICT_VENDOR_FILES := false
 
 $(call inherit-product, device/lge/hammerhead/device.mk)
 $(call inherit-product-if-exists, vendor/lge/hammerhead/device-vendor.mk)
